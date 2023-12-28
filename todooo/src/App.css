@@ -1,0 +1,65 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0; /* Background color for the entire container */
+  padding: 20px; /* Add some padding for a cleaner look */
+}
+
+input {
+  width: 300px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px; /* Rounded corners */
+  background-color: #ffffff; /* Background color for input */
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8); /* Neumorphic box shadow */
+  outline: none;
+  margin-bottom: 15px; /* Add some space between input and button */
+}
+
+button {
+  padding: 12px;
+  background-color: #333; /* Darker background color for the button */
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8); /* Neumorphic box shadow */
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 345px;
+  background: linear-gradient(145deg, #e0e0e0, #f8f8f8); /* Gradient background for tasks */
+  color: #333; /* Text color for tasks */
+  height: 40px;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8); /* Neumorphic box shadow */
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: #666; /* Color for crossed-out text */
+}
